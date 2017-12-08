@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stars</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    </head>
+    <style>
+        .home-img{
+            background-image: url("images/act.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+            height: 100%
+        }
+        .home-color{
+            background-color:#38333A;
+            height: 100%;
+            
+            
+        }
+        .home-img1{
+            background-image: url("images/sh.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+            height: 100%;
+            z-index: 2;
+        }
+        .home-color1{
+            background-color:#38333A;
+            height: 100%;
+            
+            
+        }
+        .box h1{
+            margin-top: 10%;
+            font-size: 300%;
+            margin-left: -70%;
+            color: white;
+        }
+        .box h1 span{
+           color: #D4D43C;
+        }
+        .box{
+            border: 10px solid rgba(255, 255, 255, .2);
+            width: 50%;
+            height: 25%;
+            margin-top: 40%;
+            margin-left:40%;
+        }
+        .box p{
+            font-size: 150%;
+            color: white;
+            margin-left:-40%;
+            font-family: arial;
+        }
+        .box p span{
+            
+            color: #D4D43C;
+        }
+        .home-options{
+            background-color: white;
+            height: 70%;
+            width: 100%;
+            margin-top: 20%;
+            margin-left: -10%;
+            font-size: 500%;
+            color:#D4D43C; 
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            cursor: pointer;
+                    
+        }
+        .home-options:hover{
+            box-shadow: 1px solid white;
+        }
+        @media  only screen and (max-width:740px){
+            .home-options{
+                margin-left:0%;
+            }
+            .home-color1{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+            .home-color{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+            .box{
+               visibility: hidden; 
+            }
+        }
+        ul li{
+            float: left;
+            padding: 5px;
+            list-style-type: none;
+            font-size: 90%;
+            display: inline-block;
+    
+    
+        }
+        
+    </style>
+    
+    <body>
+        
+        
+     <div class="container-fluid">
+         <header>
+       <nav class="navbar navbar-toggleable-md navbar-fixed-top navbar-light ">
+        <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul>
+        <li>
+          ABOUT
+        </li>
+        <li>
+          HOW IT WORKS
+        </li>
+        <li routerLink='/contact'>
+          CONTACT US
+        </li>
+        <li>
+          CATEGORIES
+        </li>
+      </ul>
+      </div>
+    </nav>
+         </header> 
+         
+         
+        <div class="row">
+         
+            
+            <div class="col-lg-7 col-xs-12 home-img push-lg-5">
+            
+            </div>
+            <div class="col-lg-5 col-xs-12 home-color pull-lg-7">
+                <div class="box">
+                    <h1>Meet My <span>Stars</span></h1>
+                </div>
+            
+            </div>
+         </div>
+         <div class="row">
+         
+            
+            <div class="col-lg-7 col-xs-12 home-img1 push-lg-5">
+            <div class="row home-options">
+                
+                <div class="col-lg-6 col-xs-6">
+                <i class="fa fa-film" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+                </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-5 col-xs-12 home-color1 pull-lg-7">
+            <div class="box">
+                <p>CHOOSE<br><span>CATEGORIES</span></p>
+                </div>
+            </div>
+         </div>
+        </div>   
+        
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>  
+       
+    </body>
+</html>

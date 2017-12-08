@@ -1,0 +1,223 @@
+.actor .home-img{
+            background-image: url("images/ntr_back.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+            height: 100%;
+            width: 100%;      
+            z-index: 2
+        }
+        .home-color{
+            background-color:#38333A;
+            height: 100%;
+            
+            
+        }
+        
+        .box h1{
+            margin-top: 10%;
+            font-size: 300%;
+            margin-left: -70%;
+            color: white;
+        }
+        .box h1 span{
+           color: #D4D43C;
+        }
+        .box{
+            border: 10px solid rgba(255, 255, 255, .2);
+            
+            width: 50%;
+            height: 25%;
+            margin-top: 40%;
+            margin-left:40%;
+        }
+        .box p{
+            font-size: 150%;
+            color: white;
+            margin-left:-40%;
+            font-family: arial;
+        }
+        .box p span{
+            
+            color: #D4D43C;
+        }
+        .home-options{
+            background-color: white;
+            height: 70%;
+            width: 100%;
+            margin-top: 20%;
+            margin-left: -10%;
+            font-size: 500%;
+            color:#D4D43C; 
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            cursor: pointer;
+            opacity: 0.9;
+                    
+        }
+        .home-options:hover{
+            box-shadow: 1px solid white;
+        }
+        @media  only screen and (max-width:740px){
+            .home-options{
+                margin-left:0%;
+            }
+            .home-color1{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+            .home-color{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+        }
+        nav ul li{
+            float: left;
+            padding: 5px;
+            list-style-type: none;
+            font-size: 90%;
+            display: inline-block;
+    
+    
+        }
+.social-icons{
+    font-size: 200%;
+    color: #D4D43C;
+    
+    display: inline-block;
+    
+    cursor: pointer;
+    
+    
+}
+.actor ul li{
+    float: left;
+            padding: 5px;
+            list-style-type: none;
+            font-size: 90%;
+            display: inline-block;
+}
+.category .img{
+    background-image: url("images/allu.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+    min-height: 50%;
+            height: auto;
+            width: 100%;      
+            z-index: 2
+}
+
+.contact .home-img{
+            background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)),url("images/contact.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+            height: 100%;
+            width: 100%;      
+            z-index: 2
+        }
+form{
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    color: white;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 100%;
+    font-weight: bolder;
+    font-style: arial;
+}
+form .inputs{
+    outline: none !important;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    
+}
+form label{
+    width: 100%;
+    margin-top: 40px;
+}
+form button{
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+     width: 100%;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: bolder;
+    font-style: arial;
+    
+}
+form select{
+    color: white;
+}
+
+
+.register .home-img{
+            background-image: url("images/cam.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position:center;
+             height:calc(100% - 1px);
+            height: 115%;
+            width: 100%;      
+            z-index: 2
+        }
+.register  .home-color{
+            background-color:#38333A;
+            height: 115%;
+            
+            
+        }
+.register .box h1{
+            margin-top: 10%;
+            font-size: 300%;
+            margin-left: -70%;
+            color: white;
+        }
+   .register     .box h1 span{
+           color: #D4D43C;
+        }
+     
+   .register     .box{
+            border: 10px solid rgba(255, 255, 255, .2);
+            
+            width: 20%;
+            height: 25%;
+            margin-top: -40%;
+            margin-left:10%;
+       z-index: 2;
+        }
+
+@media  only screen and (max-width:740px){
+            .home-options{
+                margin-left:0%;
+            }
+            .home-color1{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+            .home-color{
+                visibility: hidden;
+                margin-top: -180%;
+            }
+            .box{
+               visibility: hidden; 
+            }
+        }
